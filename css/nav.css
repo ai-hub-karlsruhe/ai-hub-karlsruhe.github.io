@@ -1,0 +1,54 @@
+footer nav ul {
+    text-align: right;
+    text-align-last: right;
+}
+
+nav {
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    text-align: justify;
+    text-align-last: justify;
+}
+
+nav ul li {
+    display: inline-flex;    width: 10em;
+    background-color: rgba(27, 61, 13, 0.75);
+    transition: background-color 200ms;
+}
+
+nav ul li:hover {
+    background-color: rgba(27, 61, 13, 1);
+    transition: background-color 200ms;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+
+    padding: 10px;
+
+    text-align: center;
+    text-align-last: center;
+}
+
+@media only screen and (max-width: 767px) {
+    nav {
+        width: 100%;
+    }
+
+    nav ul li {
+        width: 100%;
+        padding: 0px;
+        margin: 5px;
+    }
+
+    nav ul li a {
+        padding: 5px;
+    }
+}
