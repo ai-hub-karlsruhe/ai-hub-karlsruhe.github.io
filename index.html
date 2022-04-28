@@ -1,151 +1,204 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang=""> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
-    <meta name="description" content="">
+    <title>Summer School - Future Energy Systems: Informatics, Economics & Engineering
+    </title>
+    <meta name="description"
+          content="The Summer School on ‘Future Energy Systems: Informatics, Economics & Engineering’ organised by the DFG Research Training Group ‘Energy Status Data – Informatics Methods for its Collection Analysis and Exploitation’, focuses on exploring synergies between methods and tools from multiple disciplines to facilitate future energy systems.">
+
+    <meta name="author" content="Karlsruhe Institute of Technology">
+    <meta name="creator" content="Karlsruhe Institute of Technology">
+    <meta name="Publisher" content="Karlsruhe Institute of Technology">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate"/>
+    <meta name="Generator" content="Sublime Text"/>
+    <meta name="Identifier-URL" content="www.future-energy-systems.org"/>
+    <meta name="copyright" content="All Rights Reserved - Karlsruhe Institute of Technology"/>
+    <meta name="keywords"
+          content="Summer School, Data, Analytics, Management, Informatics, Energy, Systems, Gesellschaft für Informatik, GI, German Informatics Society, DFG, Energy Status Data">
+    <link rel="icon" href="favicon.png" type="image/png">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="theme-color" content="#71AB48" />
+    <meta name="theme-color" content="#71AB48"/>
 
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/logos.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/print.css">
+    <link rel="stylesheet" href="css/schedule.css">
 
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Libre+Baskerville|Libre+Franklin" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+    <script>
+        // style we only want if JavaScript is activated
+        document.write(`
+<style>
+div.speaker .biography {
+    display: none;
+}
+</style>
+`);
+    </script>
+
 </head>
 <body>
 <!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<div class="header-container">
+
+<div id="fixedheader">
+    <nav>
+        <ul>
+            <li><a href="#abstract">Abstract</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="assets/Summer_School_Passau_Booklet_Events.pdf">Event Booklet (PDF)</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#organizers">Organizers</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="header-container" >
     <header class="wrapper clearfix">
         <div id="subtitle">Summer School on</div>
-        <h1 class="title">Communication Technology and Data Analytics for Future Energy Systems</h1>
+        <h1 class="title">Future Energy Systems</h1>
+        <h2 class="title">Informatics, Economics & Engineering</h2>
         <div style="clear: both;"></div>
-        <div id="theDate">11. &ndash; 16. September 2017</div>
+        <div id="theDate">Summer School Postponed until 2021 due to the current Covid-19 Situation, this site will be updated as soon as more information becomes available</div>
 
-        <nav>
+        <nav id="topnav">
             <ul>
                 <li><a href="#abstract">Abstract</a></li>
-                <li><a href="#speakers">Speakers</a></li>
-                <li><a href="#registration">Registration</a></li>
-                <li><a href="#timetable">Timetable</a></li>
-                <li><a href="#location">Location</a></li>
+                <!--<li><a href="#schedule">Schedule</a></li>-->
+                <!--<li><a href="assets/Summer_School_Passau_Booklet_Events.pdf">Booklet (PDF)</a></li>-->
+                <!--<li><a href="#map">Map</a></li>-->
+                <!--<li><a href="#speakers">Speakers</a></li>-->
+                <li><a href="#organizers">Organizers</a></li>
+                <li><a href="index_2017.html">Previous Edition</a></li>
+                <!--<li><a href="#contact">Contact</a></li>-->
             </ul>
         </nav>
     </header>
 </div>
 
 <div class="logos">
-    <img id="logo-unipassau" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /><!-- transparent 1x1 pixel -->
-    <img src="img/logo-kit.jpg" />
-    <img id="logo-gi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /><!-- transparent 1x1 pixel -->
-    <img src="img/logo-esd.png" />
+    <a href="https://www.kit.edu/english/">
+        <img src="img/logo-kit.jpg"/>
+    </a>
+
+    <a href="https://www.energystatusdata.kit.edu/">
+        <img src="img/logo-esd.png"/>
+    </a>
 </div>
 
 <div class="main-container">
     <div class="main wrapper clearfix">
+        <div style="border:2px solid #547e30; padding: 1em; text-align: center; background-color: #edffe6;">
+        <!--<h3 style="margin:0;">Files</h3>
+        <div style="font-size:120%; text-align: center;">The password for the files for the Summer School is announced in the welcome session.<br />
+            <a href="files.html">A list of files is available on a separate page.</a></div> -->
+        </div>
 
         <a name="abstract" class="anchor"></a>
         <h3>Abstract</h3>
-        <p>The design of future energy systems which cope with the fluctuating availability of renewable energy and with the flexible demand of complex systems is an important societal concern. Recently, various new technologies, like power-to-heat systems and electrical vehicles, have arrived in our everyday life, making the setting even more complex. Next to reducing the overall energy consumptions, other important concerns are a higher extent of consumer flexibility so that more sustainable and locally generated energy is used, the resilience of energy supply and the efficiency of new energy systems. For all these issues, energy informatics plays a central role. It provides methods and technologies to extract and manage information from energy systems. It offers communication and information-processing principles to operate energy systems securely.</p>
+        <p>Developing a future proof energy system requires rethinking how energy is distributed, managed, traded, used and
+             governed. The transition into an intelligent, decentralised and decarbonised energy system comes with many challenges:
+              load balancing due to the intermittent nature of renewable  sources,  unexpected  generation  peaks,  new  types  of 
+               consumers  (such  as  electric vehicles), novel security risks due to the increased use of information technology, 
+               and an energy market  not  optimised  for  real-time  trading.  Dealing  with  these  challenges  effectively  is  
+               only possible in a multidisciplinary approach that combines expertise from the fields of informatics, economics and 
+               engineering. This cooperation offers a unique opportunity to synergise knowledge from different disciplines and find 
+               innovative solutions for a sustainable, secure and equitable future energy system.</p>
+
+        <p>Following  the  success  of  the  inaugural <em>&ldquo;Future  Energy  Systems&rdquo;</em>summer  school  in  2017,
+              the second  iteration  with  the  title  <em>&ldquo;Future  Energy  Systems: Informatics,  Economics  & Engineering&rdquo;</em>
+               focuses on exploring synergies between methods and tools from multiple disciplines to facilitate future energy systems. 
+               The summer school will provide an interdisciplinary platform for graduate students, researchers and industry experts
+                from various disciplines to discuss urgent problems and explore the challenges of future energy systems from
+                 different perspectives. </p>
 
 
-        <aside id="newsletter">
-            <h3>Stay tuned!</h3>
-            <p>Input your email address if you want to be noticed on updates to this site.</p>
-            <!-- Begin MailChimp Signup Form -->
-            <div id="mc_embed_signup">
-                <form action="https://kit.us15.list-manage.com/subscribe/post?u=802c622fef4e03c783b32c064&amp;id=a598e2ac34" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
+        <p>The summer school is organised by the DFGResearch  Training  Group <em>&ldquo;Energy  Status  Data&rdquo;</em>. 
+            In addition to keynote speeches by leading researchers in the field of future energy systems, 
+            impulse presentations and interactive workshops will give an end-to-end perspective on how synergies
+             from energy informatics, energy economics and engineering can be used to design sustainable energy systems.</p>
 
-                        <div class="mc-field-group">
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="width: 100%">
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_802c622fef4e03c783b32c064_a598e2ac34" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                    </div>
-                </form>
-            </div>
 
-            <!--End mc_embed_signup-->
-        </aside>
 
-        <p>The Summer School <em>Communication Technology and Data Analytics for Future Energy Systems</em> focuses on informatics methods that bear a relationship with the energy sector, with a focus on telematics and data management and analytics. The summer school is a venue for graduate students, researchers and practitioners to learn about and contribute to this specific field.</p>
-        <p>The summer school is a joint event of the <a href="https://www.gi.de/">Gesellschaft für Informatik</a> and the <a href="http://energystatusdata.kit.edu/">DFG Research Training Group &ldquo;Energy Status Data – Informatics Methods for its Collection, Analysis and Exploitation&rdquo;</a>. Leading researchers in the field of energy informatics will give an end-to-end perspective on the fundamentals and on advanced topics of communication technology and data management and analytics.</p>
+        <!--<div style="text-align:center;"><strong>Registration for the summer school is closed.</strong></div>-->
 
-        <a name="speakers" class="anchor"></a>
-        <h3>Speakers</h3>
-        <div class="speakers">
-            <div class="speaker">
-                <img src="img/profile-placeholder.png" />
-                <div class="speakername">Dr.-Ing. XY Z</div>
-            </div>
-
-            <div class="speaker">
-                <img src="img/profile-placeholder.png" />
-                <div class="speakername">Dr.-Ing. XY Z</div>
-            </div>
-
-            <div class="speaker">
-                <img src="img/profile-placeholder.png" />
-                <div class="speakername">Dr.-Ing. XY Z</div>
-            </div>
-
-            <div class="speaker">
-                <img src="img/profile-placeholder.png" />
-                <div class="speakername">Dr.-Ing. XY Z</div>
-            </div>
-
-        </div>
-
-        <a name="registration" class="anchor"></a>
-        <h3>Registration</h3>
-        Registration will be available from <em>insert date here</em>.
-
-        <a name="timetable" class="anchor"></a>
-        <h3>Timetable</h3>
-        <div class="timetable">
-            <table>
-
-            </table>
-        </div>
-        <a href="#" id="downloadTimetable">Download as PDF</a>
-
-        <a name="location" class="anchor"></a>
+     
+   
+        <a name="organizers" class="anchor"></a>
+        <h3>Organizers</h3>
         <div id="passau">
             <div id="background"></div>
             <div class="content">
-                <h3>Location</h3>
-                <h4>Passau</h4>
-                <div id="map">
-                    <iframe height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=12.865676879882814%2C48.37996974817055%2C13.772048950195314%2C48.79600890414036&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=11/48.5884/13.3189">Größere Karte anzeigen</a></small>
-                </div>
+               
 
-                <p>Bacon ipsum dolor amet meatball jerky ball tip flank landjaeger pancetta porchetta short ribs, hamburger jowl picanha t-bone bresaola corned beef. Strip steak short loin andouille ribeye pork belly pork chop flank. Brisket corned beef spare ribs pork loin ground round ribeye. Filet mignon pig short loin chuck jowl ham swine picanha shoulder leberkas frankfurter flank rump. Pancetta flank salami shank. Biltong short ribs kevin, tail sausage prosciutto pancetta t-bone. Shank fatback pork, pork loin spare ribs shoulder meatloaf leberkas strip steak meatball doner.</p>
+        <h4>Research Training Group "Energy Status Data &ndash; Informatics Methods for its Collection, Analysis and
+            Exploitation"</h4>
+        <p>The <a href="http://energystatusdata.kit.edu/">research-training group</a> is funded by the <a
+                href="http://www.dfg.de/en/">German National Science Foundation (DFG)</a> with funds from the
+            Federal
+            Government and the German states. It has started on May 1st 2016 and has a duration of 4.5 years.</p>
+        <p>An essential aspect is the consumption of energy, particularly of complex systems such as factories or IT
+            infrastructures. Important points are the flexibilization of energy consumption, so that the share of
+            locally generated 'green' energy increases, robustness of energy provisioning, or the efficient design
+            of
+            new energy systems serving these purposes. To accomplish this, a core prerequisite is a structured
+            collection, storage and analysis of energy status data. Energy status data describes the provisioning of
+            energy, its storage, transmission and consumption, be it the outcomes of measurements, be it metadata
+            such
+            as the extent of fatigue of batteries, be it other relevant data such as electricity rates.</p>
+        <p>This Research Training Group targets at the handling of energy-status data. To this end, an
+            interdisciplinary
+            approach (computer science, engineering, economics, law) is indispensable. It reveals new scientific
+            challenges our Ph.D. students are confronted with as part of their education. For instance, we have
+            observed
+            that different planning and control purposes require data of different temporal resolution and at
+            different
+            aggregation levels. This varying granularity leads to the question how to find outliers in such data at
+            the
+            right level of abstraction. Other graduates benefit from new approaches that detect such outliers. They
+            can
+            now work more efficiently, e.g., can identify shortcomings of existing models of energy systems
+            systematically. An example of such a model would be one describing the behavior of Li-Ion batteries. The
+            infrastructure for energy research of the KIT Helmholtz sector such as the EnergyLab 2.0 will be
+            subject/object of the Research Training Group to a significant extent; the persons responsible for these
+            facilities are part of the principal investigators of this Research Training Group.</p>
 
-            </div>
-        </div>
+        <a name="contact" class="anchor"></a>
+        <h3>Contact</h3>
+        <p>If you have any questions regarding the summer school, please feel free to contact us via mail: <span
+                class="contactmail-info">future-energy-systems ∂ energystatusdata.kit.edu</span>
+        </p>
 
-        <h3>GI</h3>
+        <script>$(function () { // spam prevetion
+        
 
-        <h3>Research Training Group ESD</h3>
-
+            $(".contactmail-info").html(atob("PGEgaHJlZj0ibWFpbHRvOmZ1dHVyZS1lbmVyZ3ktc3lzdGVtc0BlbmVyZ3lzdGF0dXNkYXRhLmtpdC5lZHUiPmZ1dHVyZS1lbmVyZ3ktc3lzdGVtc0BlbmVyZ3lzdGF0dXNkYXRhLmtpdC5lZHU8L2E+IDxhIGhyZWY9Imh0dHA6Ly93d3cud2ViZXN0b29scy5jb20vYW50aXNwYW0tZW1haWwtcHJvdGVjdGlvbi1vYmZ1c2NhdGUtZW1haWwtYWRkcmVzcy13ZWJzaXRlLWNvZGUtc3BhbS1qYXZhc2NyaXB0LWJhc2U2NC1lbWFpbC1lbmNvZGluZy1jcnlwdC5odG1sIiB0aXRsZT0iQW50aS1TUEFNIFByb3RlY3Rpb24iPjxpbWcgc3JjPSIvL3VwbG9hZC53aWtpbWVkaWEub3JnL3dpa2lwZWRpYS9jb21tb25zLzIvMjgvU2VtaV9wcm90ZWN0LnN2ZyIgd2lkdGg9MTQgaGVpZ2h0PTE0IC8+PC9hPg=="));
+            $(".contactmail-webmaster").html(atob("PGEgaHJlZj0ibWFpbHRvOndlYm1hc3RlckBmdXR1cmUtZW5lcmd5LXN5c3RlbXMub3JnIj53ZWJtYXN0ZXJAZnV0dXJlLWVuZXJneS1zeXN0ZW1zLm9yZzwvYT4="));
+            $(".contactmail-registration").html(atob("PGEgaHJlZj0ibWFpbHRvOnJlZ2lzdHJhdGlvbkBmdXR1cmUtZW5lcmd5LXN5c3RlbXMub3JnIj5yZWdpc3RyYXRpb25AZnV0dXJlLWVuZXJneS1zeXN0ZW1zLm9yZzwvYT4="));
+        });</script>
     </div> <!-- #main -->
 </div> <!-- #main-container -->
 
@@ -153,7 +206,9 @@
     <footer class="wrapper">
         <nav>
             <ul>
-                <li><a href="#">Impressum</a></li>
+				<li><a href="data-protection.html">Data Protection</a></li>
+                <li><a href="termsandconditions.html">Terms & Conditions</a></li>
+                <li><a href="impressum.html">Impressum / Legal</a></li>
             </ul>
         </nav>
     </footer>

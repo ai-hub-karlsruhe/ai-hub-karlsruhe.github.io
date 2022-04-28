@@ -1,2 +1,2 @@
-# ai-hub-karlsruhe.github.io
-landing page for AI Hub Karlsruhe
+# energystatusdata.github.io
+Website for the summer school: Communication Technology and Data Analytics for Future Energy Systems
