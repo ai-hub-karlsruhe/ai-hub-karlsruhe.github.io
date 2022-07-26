@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("images/creatingAI-29.jpg");
+  background-image: url("images/creatingAI-25.jpg");
   background-position: 50% 50%;
 }
 
@@ -559,9 +559,15 @@
   margin: 12px 1px 0;
 }
 
+.u-section-6 .u-shape-1 {
+  width: 15px;
+  height: 1430px;
+  margin: -130px 12px 0 auto;
+}
+
 .u-section-6 .u-layout-wrap-2 {
   width: 1060px;
-  margin: 0 auto;
+  margin: -1300px auto 0;
 }
 
 .u-section-6 .u-layout-cell-4 {
@@ -627,15 +633,9 @@
   margin: 12px auto 0;
 }
 
-.u-section-6 .u-shape-1 {
-  width: 15px;
-  height: 121px;
-  margin: -226px 0 0 auto;
-}
-
 .u-section-6 .u-layout-wrap-3 {
   width: 1060px;
-  margin: 105px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-6 .u-layout-cell-7 {
@@ -2351,7 +2351,7 @@
 .u-section-11 .u-image-3 {
   width: 264px;
   height: 264px;
-  background-image: url("images/edouard-24.jpg");
+  background-image: url("images/edouard-31.jpg");
   background-position: 50% 50%;
   margin: -17px 0 0 auto;
 }
