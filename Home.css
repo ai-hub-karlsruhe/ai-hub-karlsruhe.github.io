@@ -453,7 +453,7 @@
 .u-section-5 .u-image-3 {
   width: 200px;
   height: 200px;
-  background-image: url("images/creatingAI-30.jpg");
+  background-image: url("images/creatingAI-31.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -1857,7 +1857,6 @@
 .u-section-9 .u-group-1 {
   width: 556px;
   min-height: 390px;
-  height: auto;
   margin: 83px auto -60px 0;
 }
 
@@ -1975,7 +1974,6 @@
 
   .u-section-9 .u-group-1 {
     width: 459px;
-    height: auto;
   }
 
   .u-section-9 .u-container-layout-2 {
@@ -2299,7 +2297,6 @@
 .u-section-11 .u-group-1 {
   width: 510px;
   min-height: 259px;
-  height: auto;
   margin: 0 0 0 auto;
 }
 
@@ -2371,10 +2368,6 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-11 .u-group-1 {
-    height: auto;
-  }
-
   .u-section-11 .u-image-2 {
     margin-right: initial;
     margin-left: initial;
