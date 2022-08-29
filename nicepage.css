@@ -361,6 +361,9 @@ span.fr-img-caption.fr-view {
       margin: 5px 0 5px 5px;
       max-width: calc(100% - 5px); }
 /*end-commonstyles library*/@charset "UTF-8";
+.u-hidden-block {
+  visibility: hidden!important;
+}
 .u-locked-block {
   pointer-events: none!important;
 }
@@ -1890,7 +1893,7 @@ a {
   width: 100%;
   text-align: center;
   color: #fff;
-  padding: 20px 0px 20px 0px;
+  padding: 20px;
   border: none;
 }
 .u-form .u-form-group.u-form-checkbox,
@@ -1924,6 +1927,12 @@ a {
 .u-form .u-form-vertical .u-form-group.u-form-checkbox,
 .u-form .u-form-vertical .u-form-group.u-form-agree {
   align-items: baseline;
+}
+.u-form .u-form-send-message-close {
+  color: white;
+  position: absolute;
+  right: 8px;
+  top: 0;
 }
 .u-form-send-message {
   z-index: 1;
@@ -38100,13 +38109,6 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 172px;
   }
 
-  .u-footer .u-image-9 {
-    height: 82px;
-    width: 140px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .u-footer .u-text-1 {
     width: auto;
     margin-left: 16px;
@@ -38191,11 +38193,6 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 140px;
   }
 
-  .u-footer .u-image-9 {
-    height: 63px;
-    width: 100px;
-  }
-
   .u-footer .u-text-1 {
     margin: 91px 13px 6px;
   }
@@ -38266,10 +38263,6 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 525px;
   }
 
-  .u-footer .u-image-9 {
-    height: 189px;
-  }
-
   .u-footer .u-text-1 {
     margin: 20px 9px 36px;
   }
@@ -38318,7 +38311,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-image-4 {
     width: 175px;
     height: 175px;
-    margin-bottom: 0;
   }
 
   .u-footer .u-layout-cell-5 {
@@ -38339,7 +38331,6 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 291px;
     height: 49px;
     margin-top: 111px;
-    margin-bottom: 0;
   }
 
   .u-footer .u-layout-cell-7 {
@@ -38350,7 +38341,6 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 301px;
     height: 100px;
     margin-left: auto;
-    margin-bottom: 0;
   }
 
   .u-footer .u-layout-cell-8 {
@@ -38361,7 +38351,6 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 203px;
     height: 199px;
     margin-top: 20px;
-    margin-bottom: 0;
   }
 
   .u-footer .u-layout-cell-9 {
@@ -38371,13 +38360,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-container-layout-9 {
     padding-top: 0;
     padding-bottom: 0;
-  }
-
-  .u-footer .u-image-9 {
-    height: 374px;
-    width: 314px;
-    margin-top: -62px;
-    margin-bottom: -62px;
   }
 
   .u-footer .u-text-1 {
